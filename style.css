@@ -166,7 +166,7 @@ img {
 
 .hero {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(./imagenes/fondo2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(./imagenes/harold.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
