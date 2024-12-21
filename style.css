@@ -59,7 +59,7 @@ body{
 }
 
 .header .navigation ul li a:hover {
-    background-color: #fd0000;
+    background-color: #fd013c;
  
 }
 
@@ -166,10 +166,7 @@ img {
 
 .hero {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(./imagenes/portada.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(./imagenes/4k\ Wallpaper\ PC\ Free\ Download.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% auto;
-
 }
-
