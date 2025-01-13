@@ -314,9 +314,13 @@ img {
 /* dispositivos moviles */
 /* Estilos existentes para .video-hero y .video-hero-right */
 
-@media (max-width: 768px) { /* Ajusta el ancho según tus necesidades */
-    .video-hero,
-    .video-heroderecha {
-        display: none; /* Oculta los videos en pantallas pequeñas */
+@media (min-width: 600px) {
+    .flex-container {
+        flex-direction: row; /* Cambia a fila en pantallas más grandes */
+        justify-content: space-around; /* Espacio entre los elementos */
+    }
+
+    .flex-container div {
+        margin: 0 20px; /* Espacio horizontal entre los elementos */
     }
 }
