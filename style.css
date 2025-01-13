@@ -210,9 +210,7 @@ img {
     padding: 20px;
 }
 
-.flex-container {
-    /* ... (tu CSS anterior) ... */
-}
+
 
 .direccion, .horario, .llamanos {
     color: #fcfafa;
@@ -237,8 +235,83 @@ img {
     text-align: left;
 } */
 
+/* ESTILOS DE TATUAJE */
+.seccion-estilos {
+    text-align: center; /* Centra el texto */
+}
+
+.contenedor-tatuajes {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 0 20px; /* Agrega un padding a los lados del contenedor */
+}
+
+.contenedor-tatuajes div {
+    flex: 0 0 25%; /* Cada div ocupará el 25% del ancho del contenedor, lo que da 4 columnas */
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho total */
+    padding: 10px; /* Espaciado entre los elementos */
+    margin: 10px; /* Espacio entre los divs */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+
+.titulo-estilos {
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
 
 
+/* ESTILOS GALERIA IMAGNES */
+.galeria {
+    text-align: center;
+    margin: 20px 0; /* Espacio alrededor de la galería */
+}
+
+.contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las imágenes */
+}
+
+.imagen-galeria {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 10px; /* Espacio entre las imágenes */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    transition: transform 0.2s; /* Efecto de transición */
+}
+
+.imagen-galeria:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+
+
+.imagen-modal {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+}
+
+.cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
 /* dispositivos moviles */
 /* Estilos existentes para .video-hero y .video-hero-right */
 
