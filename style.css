@@ -96,9 +96,8 @@ body{
     color: #ffff;
 }
 
-#toggle
-.header label{
-    display: none;
+#toggle + label {
+    display: initial;
     cursor: pointer;
 }
 
