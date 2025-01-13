@@ -222,7 +222,7 @@ img {
     flex: 1;
     border-top-width: 0; /* Oculta el borde superior */
     border-left-width: 0; /* Oculta el borde izquierdo */
-    border-right-width: 4px; /* Establece el ancho del borde derecho */
+    border-right-width: 2px; /* Establece el ancho del borde derecho */
     border-bottom-width: 0px; /* Establece el ancho del borde inferior */
     border-style: solid; /* Estilo del borde */
     border-color: #fcfafa; /* Color del borde */
