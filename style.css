@@ -206,8 +206,8 @@ img {
     justify-content: center; /* Centra horizontalmente los elementos */
     align-items: center; /* Centra verticalmente los elementos */
     z-index: 1;
-
-    padding: 20px;
+/* 
+    padding: 20px; */
 }
 
 
