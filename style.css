@@ -314,10 +314,10 @@ img {
 /* dispositivos moviles */
 /* Estilos existentes para .video-hero y .video-hero-right */
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .flex-container {
-        flex-direction: row; /* Cambia a fila en pantallas más grandes */
-        justify-content: space-around; /* Espacio entre los elementos */
+        left: 20%;
+        font-size: 10px;
     }
 
     .flex-container div {
