@@ -270,6 +270,28 @@ img {
     margin-top: 10px;
 }
 
+/*NOSOTROS*/
+.titulo-sobremi {
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.contenedor-sobremi {
+ padding: 20px;
+ justify-content: space-around;
+ align-content: center;
+}
+
+
+
 
 /* ESTILOS GALERIA IMAGNES */
 .galeria {
@@ -313,6 +335,20 @@ img {
     cursor: pointer;
     display: none;
 }
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: #303030;
+    color: #fcfafa;
+    padding: 30px;
+}
+
+
 /* dispositivos moviles */
 /* Estilos existentes para .video-hero y .video-hero-right */
 
@@ -327,4 +363,39 @@ img {
     .flex-container div {
         margin: 0 20px; /* Espacio horizontal entre los elementos */
     }
+    
+    .contenedor-tatuajes {
+     flex-direction: column;
+
+    }
+
+    .contenedor-sobremi{
+        text-align: justify;
+    }
+
+
+    .contenedor-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+.imagen-galeria {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .contenedor-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-galeria {
+        grid-template-columns: 1fr;
+    }
+}
+
 }
